@@ -1,0 +1,31 @@
+{
+  "name": "dambackup",
+  "version": "1.0.0",
+  "description": "backup folders and run commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/"
+  },
+  "keywords": [
+    "backup"
+  ],
+  "author": "damix96",
+  "license": "ISC",
+  "dependencies": {
+    "makedir": "0.0.11",
+    "ncp": "^2.0.0",
+    "node-run-cmd": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
